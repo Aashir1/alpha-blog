@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   
   get 'about', to: 'pages#about'
 
+  resource :articles #resource keyword create all http verbs for articles route
 
 end
